@@ -24,6 +24,7 @@ return {
         },
       },
       window = {
+        position = 'float',
         mappings = {
           ['\\'] = 'close_window',
         },
