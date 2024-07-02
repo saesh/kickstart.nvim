@@ -158,6 +158,9 @@ vim.opt.scrolloff = 20
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+-- session options for auto-session
+vim.opt.sessionoptions = 'blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions'
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
